@@ -13,6 +13,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.enterprise_mode=1 \
     ro.com.android.dateformat=MM-dd-yyyy \
     ro.com.android.dataroaming=false \
+    telephony.lteOnGsmDevice=1 \
+    ro.telephony.default_network=9 \
+    ro.ril.def.preferred.network=9 \
+    ro.ril.hsxpa=5 \
+    ro.ril.gprsclass=12 \
+    ro.ril.hsdpa.category=24 \
+    ro.ril.hsupa.category=8 \
     dalvik.vm.dexopt-flags=m=y
 
 # Needed packages
