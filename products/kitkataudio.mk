@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
 
 # Ringtones
 PRODUCT_COPY_FILES += \
-        $(LOCAL_PATH)/ringtones/Calisto.ogg:system/media/audio/ringtones/Calisto.ogg \
+        $(LOCAL_PATH)/ringtones/Callisto.ogg:system/media/audio/ringtones/Callisto.ogg \
         $(LOCAL_PATH)/ringtones/Dione.ogg:system/media/audio/ringtones/Dione.ogg \
         $(LOCAL_PATH)/ringtones/Ganymede.ogg:system/media/audio/ringtones/GanyMede.ogg \
         $(LOCAL_PATH)/ringtones/Luna.ogg:system/media/audio/ringtones/Luna.ogg \
