@@ -12,7 +12,7 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/alarms/Oxygen.ogg:system/media/audio/alarms/Oxygen.ogg \
         $(LOCAL_PATH)/alarms/Osmium.ogg:system/media/audio/alarms/Osmium.ogg \
         $(LOCAL_PATH)/alarms/Platinum.ogg:system/media/audio/alarms/Platinum.ogg
-	    
+   
 # Notifications
 PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/notifications/Ariel.ogg:system/media/audio/notifications/Ariel.ogg \
@@ -23,10 +23,10 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/notifications/lapetus.ogg:system/media/audio/notifications/lapetus.ogg \
         $(LOCAL_PATH)/notifications/lo.ogg:system/media/audio/notifications/lo.ogg \
         $(LOCAL_PATH)/notifications/Rhea.ogg:system/media/audio/notifications/Rhea.ogg \
-		$(LOCAL_PATH)/notifications/Salacia.ogg:system/media/audio/notifications/Salacia.ogg \
-		$(LOCAL_PATH)/notifications/Tethys.ogg:system/media/audio/notifications/Tethys.ogg \
-		$(LOCAL_PATH)/notifications/Titan.ogg:system/media/audio/notifications/Titan.ogg
-		
+        $(LOCAL_PATH)/notifications/Salacia.ogg:system/media/audio/notifications/Salacia.ogg \
+        $(LOCAL_PATH)/notifications/Tethys.ogg:system/media/audio/notifications/Tethys.ogg \
+        $(LOCAL_PATH)/notifications/Titan.ogg:system/media/audio/notifications/Titan.ogg
+
 # Ringtones
 PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/ringtones/Calisto.ogg:system/media/audio/ringtones/Calisto.ogg \
@@ -37,11 +37,11 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/ringtones/Phobos.ogg:system/media/audio/ringtones/Phobos.ogg \
         $(LOCAL_PATH)/ringtones/RobotsforEveryone.ogg:system/media/audio/ringtones/RobotsforEveryone.ogg \
         $(LOCAL_PATH)/ringtones/Sedna.ogg:system/media/audio/ringtones/Sedna.ogg \
-		$(LOCAL_PATH)/ringtones/SpagnolaOrchestration.ogg:system/media/audio/ringtones/SpagnolaOrchestration.ogg \
-		$(LOCAL_PATH)/ringtones/Titania.ogg:system/media/audio/ringtones/Titania.ogg \
-		$(LOCAL_PATH)/ringtones/Triton.ogg:system/media/audio/ringtones/Triton.ogg \
-		$(LOCAL_PATH)/ringtones/Umbriel.ogg:system/media/audio/ringtones/Umbriel.ogg
-		
+        $(LOCAL_PATH)/ringtones/SpagnolaOrchestration.ogg:system/media/audio/ringtones/SpagnolaOrchestration.ogg \
+        $(LOCAL_PATH)/ringtones/Titania.ogg:system/media/audio/ringtones/Titania.ogg \
+        $(LOCAL_PATH)/ringtones/Triton.ogg:system/media/audio/ringtones/Triton.ogg \
+        $(LOCAL_PATH)/ringtones/Umbriel.ogg:system/media/audio/ringtones/Umbriel.ogg
+
 # Ui
 PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/ui/camera_click.ogg:system/media/audio/ui/camera_click.ogg \
@@ -52,10 +52,10 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/ui/KeypressInvalid.ogg:system/media/audio/ui/KeypressInvalid.ogg \
         $(LOCAL_PATH)/ui/KeypressReturn.ogg:system/media/audio/ui/KeypressReturn.ogg \
         $(LOCAL_PATH)/ui/KeypressSpacebar.ogg:system/media/audio/ui/KeypressSpacebar.ogg \
-		$(LOCAL_PATH)/ui/KeypressStandard.ogg:system/media/audio/ui/KeypressStandard.ogg \
-		$(LOCAL_PATH)/ui/Lock.ogg:system/media/audio/ui/Lock.ogg \
-		$(LOCAL_PATH)/ui/LowBattery.ogg:system/media/audio/ui/LowBattery.ogg \
-		$(LOCAL_PATH)/ui/Undock.ogg:system/media/audio/ui/Undock.ogg \
-		$(LOCAL_PATH)/ui/Unlock.ogg:system/media/audio/ui/Unlock.ogg \
-		$(LOCAL_PATH)/ui/VideoRecord.ogg:system/media/audio/ui/VideoRecord.ogg \
-		$(LOCAL_PATH)/ui/WirelessChargingStarted.ogg:system/media/audio/ui/WirelessChargingStarted.ogg		
+        $(LOCAL_PATH)/ui/KeypressStandard.ogg:system/media/audio/ui/KeypressStandard.ogg \
+        $(LOCAL_PATH)/ui/Lock.ogg:system/media/audio/ui/Lock.ogg \
+        $(LOCAL_PATH)/ui/LowBattery.ogg:system/media/audio/ui/LowBattery.ogg \
+        $(LOCAL_PATH)/ui/Undock.ogg:system/media/audio/ui/Undock.ogg \
+        $(LOCAL_PATH)/ui/Unlock.ogg:system/media/audio/ui/Unlock.ogg \
+        $(LOCAL_PATH)/ui/VideoRecord.ogg:system/media/audio/ui/VideoRecord.ogg \
+        $(LOCAL_PATH)/ui/WirelessChargingStarted.ogg:system/media/audio/ui/WirelessChargingStarted.ogg
