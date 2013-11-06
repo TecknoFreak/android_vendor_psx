@@ -3,6 +3,9 @@ PRODUCT_NAME := psx
 PRODUCT_BRAND := psx
 PRODUCT_DEVICE := generic
 
+# Inherit kitkat audio package.
+$(call inherit-product, vendor/psx/products/kitkataudio.mk)
+
 # Common overrides 
 PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true \
