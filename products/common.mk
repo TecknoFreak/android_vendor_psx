@@ -24,8 +24,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Needed packages
 PRODUCT_PACKAGES += \
-    Stk \
-    Launcher3
+    Launcher3 \
+    Stk
 
 # Common dictionaries
 PRODUCT_PACKAGE_OVERLAYS += vendor/psx/overlay/dictionaries
@@ -36,5 +36,4 @@ PRODUCT_COPY_FILES += \
 
 # Bootanimation
 PRODUCT_COPY_FILES += \
-    vendor/psx/proprietary/common/system/media/bootanimation.zip:system/media/bootanimation.zip
-	
+    vendor/psx/proprietary/system/media/bootanimation.zip:system/media/bootanimation.zip
