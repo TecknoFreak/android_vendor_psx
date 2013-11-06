@@ -20,8 +20,8 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/notifications/Ceres.ogg:system/media/audio/notifications/Ceres.ogg \
         $(LOCAL_PATH)/notifications/Elara.ogg:system/media/audio/notifications/Elara.ogg \
         $(LOCAL_PATH)/notifications/Europa.ogg:system/media/audio/notifications/Europa.ogg \
-        $(LOCAL_PATH)/notifications/lapetus.ogg:system/media/audio/notifications/lapetus.ogg \
-        $(LOCAL_PATH)/notifications/lo.ogg:system/media/audio/notifications/lo.ogg \
+        $(LOCAL_PATH)/notifications/Iapetus.ogg:system/media/audio/notifications/Iapetus.ogg \
+        $(LOCAL_PATH)/notifications/Io.ogg:system/media/audio/notifications/Io.ogg \
         $(LOCAL_PATH)/notifications/Rhea.ogg:system/media/audio/notifications/Rhea.ogg \
         $(LOCAL_PATH)/notifications/Salacia.ogg:system/media/audio/notifications/Salacia.ogg \
         $(LOCAL_PATH)/notifications/Tethys.ogg:system/media/audio/notifications/Tethys.ogg \
