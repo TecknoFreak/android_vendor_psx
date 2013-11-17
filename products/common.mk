@@ -3,9 +3,6 @@ PRODUCT_NAME := psx
 PRODUCT_BRAND := psx
 PRODUCT_DEVICE := generic
 
-# Inherit kitkat audio package.
-$(call inherit-product, vendor/psx/products/kitkataudio.mk)
-
 # Common overrides 
 PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true \
@@ -37,6 +34,5 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/psx/overlay/dictionaries
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
-# Bootanimation
-PRODUCT_COPY_FILES += \
-    vendor/psx/proprietary/system/media/bootanimation.zip:system/media/bootanimation.zip
+# Inherit kitkat audio package.
+$(call inherit-product, vendor/psx/products/kitkataudio.mk)

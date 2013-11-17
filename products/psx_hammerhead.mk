@@ -11,5 +11,9 @@ PRODUCT_DEVICE := hammerhead
 PRODUCT_MODEL := Nexus 5
 PRODUCT_MANUFACTURER := LGE
 
+# Bootanimation
+PRODUCT_COPY_FILES += \
+    vendor/psx/proprietary/system/media/1080x1920-bootanimation.zip:system/media/bootanimation.zip
+
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=hammerhead BUILD_FINGERPRINT="google/hammerhead/hammerhead:4.4/KRT16O/893803:user/release-keys" PRIVATE_BUILD_DESC="hammerhead-user 4.4 KRT16O 893803 release-keys"
 
