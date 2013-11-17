@@ -1,4 +1,3 @@
-add_lunch_combo psx_emulator-eng
 add_lunch_combo psx_mako-user
 add_lunch_combo psx_hammerhead-user
 add_lunch_combo psx_flo-user
