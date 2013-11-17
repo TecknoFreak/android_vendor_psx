@@ -30,8 +30,8 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     Stk
 
-# Common overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/psx/overlay/common
+# Common dictionaries
+PRODUCT_PACKAGE_OVERLAYS += vendor/psx/overlay/dictionaries
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
