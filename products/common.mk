@@ -27,8 +27,12 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     Stk
 
-# Common dictionaries
-PRODUCT_PACKAGE_OVERLAYS += vendor/psx/overlay/dictionaries
+# Common overlays
+PRODUCT_PACKAGE_OVERLAYS += vendor/psx/overlay
+
+# Proprietary latinime lib for swyping
+PRODUCT_COPY_FILES += \
+    vendor/psx/proprietary/system/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
