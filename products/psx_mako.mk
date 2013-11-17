@@ -15,5 +15,5 @@ PRODUCT_MANUFACTURER := LGE
 PRODUCT_COPY_FILES += \
     vendor/psx/proprietary/system/media/768x1280-bootanimation.zip:system/media/bootanimation.zip
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_FINGERPRINT="google/occam/mako:4.4/KRT16O/893803:user/release-keys" PRIVATE_BUILD_DESC="occam-user 4.4 KRT16O 893803 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_FINGERPRINT="google/occam/mako:4.4/KRT16O/907817:user/release-keys" PRIVATE_BUILD_DESC="occam-user 4.4 KRT16O 907817 release-keys"
 
