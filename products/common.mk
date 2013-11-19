@@ -55,7 +55,7 @@ TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 TARGET_BOOTANIMATION_USE_RGB565 := true
 
 # Motox dalvik patch
-ifneq ($(filter psx_hammerhead psx_mako,$(TARGET_PRODUCT)),)
+ifneq ($(filter psx_flo psx_hammerhead psx_mako,$(TARGET_PRODUCT)),)
 $(call inherit-product, vendor/psx/products/motoxdalvikpatch.mk)
 endif
 
