@@ -38,6 +38,17 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
+# Bootanimation support
+ifneq ($(filter psx_mako,$(TARGET_PRODUCT)),)
+PRODUCT_COPY_FILES += \
+    vendor/psx/proprietary/system/media/768x1280-bootanimation.zip:system/media/bootanimation.zip
+endif
+
+ifneq ($(filter psx_hammerhead psx_flo,$(TARGET_PRODUCT)),)
+PRODUCT_COPY_FILES += \
+    vendor/psx/proprietary/system/media/1080x1920-bootanimation.zip:system/media/bootanimation.zip
+endif
+
 # Bootanimation enhancements
 TARGET_BOOTANIMATION_PRELOAD := true
 TARGET_BOOTANIMATION_TEXTURE_CACHE := true

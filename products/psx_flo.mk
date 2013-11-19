@@ -11,9 +11,5 @@ PRODUCT_DEVICE := flo
 PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := Asus
 
-# Bootanimation
-PRODUCT_COPY_FILES += \
-    vendor/psx/proprietary/system/media/1080x1920-bootanimation.zip:system/media/bootanimation.zip
-
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=razor BUILD_FINGERPRINT="google/razor/flo:4.4/KRT16O/907817:user/release-keys" PRIVATE_BUILD_DESC="razor-user 4.4 KRT16O 907817 release-keys"
 
