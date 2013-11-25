@@ -30,6 +30,10 @@ PRODUCT_PACKAGES += \
 # Common overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/psx/overlay
 
+# Use custom apns-conf.xml
+PRODUCT_COPY_FILES += \
+    vendor/psx/proprietary/system/etc/apns-conf.xml:system/etc/apns-conf.xml
+
 # Proprietary latinime lib for swyping
 PRODUCT_COPY_FILES += \
     vendor/psx/proprietary/system/lib/libjni_latinime.so:system/lib/libjni_latinime.so
