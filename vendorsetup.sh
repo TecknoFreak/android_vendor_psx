@@ -1,3 +1,5 @@
 add_lunch_combo psx_mako-user
 add_lunch_combo psx_hammerhead-user
 add_lunch_combo psx_flo-user
+add_lunch_combo psx_manta-user
+add_lunch_combo psx_grouper-user
