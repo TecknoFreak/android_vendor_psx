@@ -27,6 +27,11 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     Stk
 
+# Google latinime
+PRODUCT_COPY_FILES += \
+    vendor/psx/proprietary/system/app/GoogleLatinIme.apk:system/app/GoogleLatinIme.apk \
+    vendor/psx/proprietary/system/lib/libjni_unbundled_latinimegoogle.so:system/lib/libjni_unbundled_latinimegoogle.so
+
 # Common overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/psx/overlay
 
