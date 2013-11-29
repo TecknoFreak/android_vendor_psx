@@ -34,10 +34,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/psx/overlay
 PRODUCT_COPY_FILES += \
     vendor/psx/proprietary/system/etc/apns-conf.xml:system/etc/apns-conf.xml
 
-# Proprietary latinime lib for swyping
-PRODUCT_COPY_FILES += \
-    vendor/psx/proprietary/system/lib/libjni_latinime.so:system/lib/libjni_latinime.so
-
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
