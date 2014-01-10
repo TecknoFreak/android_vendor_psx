@@ -33,7 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/psx/proprietary/system/lib/libjni_unbundled_latinimegoogle.so:system/lib/libjni_unbundled_latinimegoogle.so
 
 # Common overlays
-PRODUCT_PACKAGE_OVERLAYS += vendor/psx/overlay
+PRODUCT_PACKAGE_OVERLAYS :=  vendor/psx/overlay $(PRODUCT_PACKAGE_OVERLAYS)
 
 # Use custom apns-conf.xml
 PRODUCT_COPY_FILES += \
