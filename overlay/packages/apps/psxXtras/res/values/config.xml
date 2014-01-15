@@ -18,7 +18,7 @@
 
   <!-- PSX-Headers -->
   <bool name="config_show_psx_bars">true</bool>
-  <bool name="config_show_psx_buttons">false</bool>
+  <bool name="config_show_psx_buttons">true</bool>
   <bool name="config_show_psx_userinterface">true</bool>
   <bool name="config_show_psx_lockscreen">false</bool>
   <bool name="config_show_psx_statusbar">true</bool>
@@ -31,5 +31,5 @@
   <bool name="config_show_userinterface_chargingled">true</bool>
   <bool name="config_show_userinterface_notificationled">true</bool>
   <bool name="config_show_userinterface_lessnotifications">true</bool>
-
+  <bool name="config_show_buttons_powermenu">true</bool>
 </resources>
