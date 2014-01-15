@@ -28,8 +28,6 @@
   <bool name="config_show_statusbar_native_battery">true</bool>
   <bool name="config_show_navbar_height">true</bool>
   <bool name="config_show_userinterface_quiethours">true</bool>
-  <bool name="config_show_userinterface_chargingled">true</bool>
-  <bool name="config_show_userinterface_notificationled">true</bool>
   <bool name="config_show_userinterface_lessnotifications">true</bool>
   <bool name="config_show_buttons_powermenu">true</bool>
 </resources>
